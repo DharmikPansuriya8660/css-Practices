@@ -1,0 +1,42 @@
+body {
+	background-color: lightblue;
+}
+/* background color*/
+h1.head {
+	background-color: yellow;
+}
+div {
+	background-color: green;
+}
+p {
+	background-color: yellow
+}
+/* with opacity*/
+h1.zeros {
+	background-color: yellow;
+}
+div.first {
+	background-color: green;
+	opacity: 0.1;
+}
+div.second {
+	background-color: green;
+	opacity: 0.3;
+}
+div.third {
+	background-color: green;
+	opacity: 0.6;
+}
+/* with RGBA color opacity*/
+h1.zero {
+	background-color: yellow;
+}
+div.one {
+	background: rgba(0, 128, 0, 0.1);
+}
+div.two {
+	background: rgba(0, 128, 0, 0.3);
+}
+div.three {
+	background: rgba(0, 128, 0, 0.6);
+}
